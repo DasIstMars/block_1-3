@@ -24,14 +24,13 @@ margin: 0;
 font-family: 'TT Lakes', serif;
 }
 
-h1 {
-    font-family: 'TT Lakes Bold', serif;
-   
+li {
+    list-style-type: none;
 }
 
 main {
     background-color: #f3b1b1;
-    padding: 16px;
+
 }
 
 
@@ -76,11 +75,11 @@ main {
 .title {
     position: relative;
     color: #1B1C21;
-    font-family: TT Lakes Bold;
+    font-family: 'TT Lakes Bold', serif;
     font-size: 28px;
     line-height: 40px; 
     letter-spacing: -0.6px;
-    
+    padding: 16px;
 }
 
 .title::before {
@@ -91,8 +90,9 @@ main {
     border-radius: 1px;
     background-color: #41F6D7;
     position: absolute;
-    left: -16px;
-    bottom: 0;
+    left: 0;
+    bottom: 10;
+
 }
 
 .article {
@@ -101,25 +101,32 @@ main {
 
 .nav__list {
     display: flex;
-    justify-content: flex-start;
-    width: 11111px;
+    justify-content: space-between;
+    gap: 20px;
+    overflow: scroll;
     
 }
 
-.nav__link {
+.nav__item {
     width: 246px;
     height: 40px;
-    flex-shrink: 0;
-    color: #7E7E82;
-    font-size: 16px;
     text-align: center;
     line-height: 40px;
-    text-decoration: none;
-    margin: auto;
+    margin: 24px 0;
+    
 
     border-radius: 6px;
     border: 2px solid #B8FFEC;
     background: #FFF;
 }
 
+.nav__link {
+    text-decoration: none;
+    color: #7E7E82;
+    font-size: 16px;
+    text-wrap: nowrap;
+    border: 1px solid red;
+    
+    
+}
 
