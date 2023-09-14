@@ -1,59 +1,28 @@
-@font-face {
-    font-family: 'TT Lakes';
-    src: url('./fonts/TTLakes-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'TT Lakes Bold';
-    src: url('./fonts/TTLakes-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'TT Lakes Medium';
-    src: url('./fonts/TTLakes-Medium.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-}
-
-* {
-margin: 0;
-font-family: 'TT Lakes', serif;
-}
-
-li {
-    list-style-type: none;
-}
 
 main {
-    background-color: #f3b1b1;
-
+    background-color: #F8F8F8;;
+    font-family: "TT Lakes", sans-serif;
 }
 
 
 /*HEADER*/
 
-
-.container {
+.menu {
     width: 320px;
     height: 88px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
     margin: auto;
-    
 }
 
-.logo {
-    align-self: center;
+.menu__logo {
     padding-right: 17px;
     position: relative;
 }
 
 
-.logo::after {
+.menu__logo::after {
     content: '';
     display: block;
     width: 2px;
@@ -65,17 +34,20 @@ main {
     bottom: 13px;
 }
 
-.header__button {
+.menu__button {
     border: none;
     background-color: inherit;
 }
+
+
 
 /*MAIN*/
 
 .title {
     position: relative;
     color: #1B1C21;
-    font-family: 'TT Lakes Bold', serif;
+    font-family: 'TT Lakes', sans-serif;
+    font-weight: bold;
     font-size: 28px;
     line-height: 40px; 
     letter-spacing: -0.6px;
@@ -92,19 +64,14 @@ main {
     position: absolute;
     left: 0;
     bottom: 10;
-
 }
 
-.article {
-    
-}
 
 .nav__list {
     display: flex;
     justify-content: space-between;
     gap: 20px;
     overflow: scroll;
-    
 }
 
 .nav__item {
@@ -113,7 +80,6 @@ main {
     text-align: center;
     line-height: 40px;
     margin: 24px 0;
-    
 
     border-radius: 6px;
     border: 2px solid #B8FFEC;
@@ -126,7 +92,5 @@ main {
     font-size: 16px;
     text-wrap: nowrap;
     border: 1px solid red;
-    
-    
 }
 
