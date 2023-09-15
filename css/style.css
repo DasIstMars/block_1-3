@@ -12,24 +12,33 @@ body {
 .header {
     background-color: white;
 }
-.menu {
-    width: 320px;
+.container {
     height: 88px;
     display: flex;
-    align-items: center;
-    margin: auto;
+    justify-content: space-between;
 }
 
-.menu__logo {
+.menu1 {
+    display: flex;
+    align-items: center;
+}
+
+.menu2 {
+    display: flex;
+    align-items: center;
+}
+
+.menu1__logo {
     padding-right: 17px;
     position: relative;
+    
 }
 
-.menu__element:nth-of-type(2) {
+.menu1__element:nth-of-type(2) {
     margin-left: 4px;
 }
 
-.menu__logo::after {
+.menu1__logo::after {
     content: '';
     display: block;
     width: 2px;
@@ -41,13 +50,14 @@ body {
     bottom: 13px;
 }
 
-.menu__button {
-    border: none;
+.menu1__button {
     background-color: inherit;
     margin-left: 16px; 
 }
-
-.menu__element {
+.menu1__element {
+    margin-right: 16px;
+}
+.menu2__element {
     margin-right: 16px;
 }
 
