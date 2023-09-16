@@ -1,3 +1,6 @@
+@import '/css/320-mobile.css';
+@import '/css/768-tablet.css';
+@import '/css/1120-desktop.css';
 
 body {
     background-color: #F8F8F8;
@@ -14,46 +17,24 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: white;
-
+    border-bottom: 1px solid #D9FFF5;;
 }
 
 .mob-menu {
     display: flex;
     align-items: center;
 }
-.mob-menu__button {
-    margin-left: 16px;
-    margin-right: 16px;
-}
 
-.request-menu {
+.main-menu {
     display: flex;
     align-items: center;    
 }
-.request-menu__label:first-of-type::before {
-    content: '';
-    display: block;
-    width: 2px;
-    height: 32px;
-    border-radius: 1px;
-    background-color: #EAEAEA;
-    position: absolute;
-    right: 58px;
-    bottom: 10px;   
-}
-.request-menu__text {
-    display: none;
-}
+
 .request-menu__label {
-    margin-right: 16px;
     position: relative;
 }
 
-.tablet-menu {
-    display: none;
-}
-
-    /*--------MAIN---------*/
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!MAIN*/
 /*TITLE*/
 .title {
     position: relative;
@@ -63,48 +44,22 @@ body {
     font-size: 28px;
     line-height: 40px; 
     letter-spacing: -0.6px;
-    padding: 16px 24px 0 16px; 
 }
 
-.title::before {
-    content: '';
-    display: block;
-    width: 4px;
-    height: 40px;
-    border-radius: 0 3px 3px 0;
-    background-color: #41F6D7;
-    position: absolute;
-    left: 0;
-    bottom: 10;
-}
 
-.title::after {
-    content: '';
-    display: block;
-    width: 24px;
-    height: 40px;
-    background:  linear-gradient(270deg, #F8F8F8 16.84%,  rgba(248, 248, 248, 0.00) 100%);
-    position: absolute;
-    right: 0;
-    top: 80px;
-    z-index: 1;
-} 
+
 /*NAV*/
 .nav__list {
     display: flex;
-    justify-content: space-between;
-    gap: 20px;
+    justify-content: flex-start;
     overflow: scroll;
-    margin-left: 16px;
     z-index: auto;
     position: relative;
 }
 
 .nav__item {
-    height: 40px;
     text-align: center;
     line-height: 40px;
-    margin: 24px 0;
     position: relative;
 }
 
@@ -112,7 +67,7 @@ body {
     border-radius: 6px;
     border: 2px solid #B8FFEC;
     background: #FFF;
-    padding: 6px 15px;
+    padding: 6px 16px;
 }
 
 .nav__link {
@@ -124,17 +79,14 @@ body {
     font-weight: 500;
     line-height: 24px;
     letter-spacing: -0.2px;
+    padding: 8px 16px;
 }
 /*ARTICLE*/
 .textbox {
-    margin-left: 16px;
-    margin-right: 16px;
     display: block;
-    height: 90px;
     overflow: hidden;
-    font-size: 14px;
-    line-height: 18px; 
     letter-spacing: 0.2px;
+    font-size: 14px;
 }
 
 .textbox__text {
@@ -142,8 +94,6 @@ body {
 }
 
 .expand {
-    margin: 16px;
-    margin-bottom: 30px;
     display: flex;
     gap: 8px;
 }
@@ -154,11 +104,4 @@ body {
     
 }
 
-.image {
-    width: 320px;
-    height: 230px;
-    margin-top: -40px;
-    background: url(/img/CSP_image.png), lightgray 0px 0px / 100% 100% no-repeat;
-    background-size: cover;
-    clip-path: polygon(0 10%, 100% 10%, 100% 90%, 0 90%); 
-  }
+

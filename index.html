@@ -19,35 +19,37 @@
                     <img src="/img/logo.svg" alt="Logo">
                 </a>
             </div>
-            <div class="tablet-menu">
-                <button class="tablet-menu__button">
-                    <img src="/img/call.svg" alt="Call">
-                </button>
-                <button class="tablet-menu__button">
-                    <img src="/img/chat.svg" alt="Chat">
-                </button>
-                <button class="tablet-menu__button">
-                    <img src="/img/profile.svg" alt="Profile">
-                </button>
-            </div>
-            <div class="request-menu">
-                <label class="request-menu__label" for="repair">
-                    <button class="request-menu__button" id="repair">
-                       <img src="/img/repair.svg" alt="Repair">
+            <div class="main-menu">
+                <div class="tablet-menu">
+                    <button class="tablet-menu__button">
+                        <img src="/img/call.svg" alt="Call">
                     </button>
-                    <div class="request-menu__text">Оставить заявку</div> 
-                </label>
-                <label class="request-menu__label" for="checkstatus">
-                    <button class="request-menu__button" id="checkstatus">
-                        <img src="/img/checkstatus.svg" alt="Check status">
+                    <button class="tablet-menu__button">
+                        <img src="/img/chat.svg" alt="Chat">
                     </button>
-                    <div class="request-menu__text">Статус ремонта</div> 
-                </label>
+                    <button class="tablet-menu__button">
+                        <img src="/img/profile.svg" alt="Profile">
+                    </button>
+                </div>
+                <div class="request-menu">
+                    <label class="request-menu__label" for="repair">
+                        <button class="request-menu__button" id="repair">
+                            <img src="/img/repair.svg" alt="Repair">
+                        </button>
+                        <div class="request-menu__text">Оставить заявку</div> 
+                    </label>
+                    <label class="request-menu__label" for="checkstatus">
+                        <button class="request-menu__button" id="checkstatus">
+                            <img src="/img/checkstatus.svg" alt="Check status">
+                        </button>
+                        <div class="request-menu__text">Статус ремонта</div> 
+                    </label>
+                </div>
             </div>   
         </div>
     </header>
     <main class="main">
-        
+        <article class="article">
         
             <h1 class="title">Услуги и сервисы</h1>
         
@@ -59,8 +61,11 @@
                 <li class="nav__item"><a class="nav__link" href="">Цены за услуги</a></li>
                 <li class="nav__item"><a class="nav__link" href="">Адреса сервисных центров</a></li>
                 <li class="nav__item"><a class="nav__link" href="">Специальные цены</a></li>
+                <li class="nav__item"><a class="nav__link" href="">Отзывы</a></li>
             </ul>
         </nav>
+        <div class="wrapper">
+        <section class="section">
             <div class="textbox">
                 <p class="textbox__text">
                     Мы являемся авторизованным сервисным центром по ремонту техники Dell. 
@@ -82,11 +87,12 @@
                     </button>
                     <div class="expand__text">Читать далее</div> 
                 </label>
+        </section>
             
-        
             
             <div class="image"></div>
-        
+        </div>    
+        </article>
     </main>  
 </body>
 </html>
