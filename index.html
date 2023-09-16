@@ -12,23 +12,37 @@
     <header class="header">
         <div class="container">
             <div class="mob-menu">
-                <button class="mob-menu__element mob-menu__button">
+                <button class="mob-menu__button">
                     <img src="/img/menu.svg" alt="Menu">
                 </button>
-                <a class="mob-menu__element mob-menu__logo" href="#">
+                <a class="mob-menu__logo" href="#">
                     <img src="/img/logo.svg" alt="Logo">
                 </a>
             </div>
             <div class="tablet-menu">
-
+                <button class="tablet-menu__button">
+                    <img src="/img/call.svg" alt="Call">
+                </button>
+                <button class="tablet-menu__button">
+                    <img src="/img/chat.svg" alt="Chat">
+                </button>
+                <button class="tablet-menu__button">
+                    <img src="/img/profile.svg" alt="Profile">
+                </button>
             </div>
             <div class="request-menu">
-                <a class="request-menu__element" href="#">
-                    <img src="/img/repair.svg" alt="Repair">
-                </a>
-                <a class="request-menu__element" href="#">
-                    <img src="/img/checkstatus.svg" alt="Check status">
-                </a>
+                <label class="request-menu__label" for="repair">
+                    <button class="request-menu__button" id="repair">
+                       <img src="/img/repair.svg" alt="Repair">
+                    </button>
+                    <div class="request-menu__text">Оставить заявку</div> 
+                </label>
+                <label class="request-menu__label" for="checkstatus">
+                    <button class="request-menu__button" id="checkstatus">
+                        <img src="/img/checkstatus.svg" alt="Check status">
+                    </button>
+                    <div class="request-menu__text">Статус ремонта</div> 
+                </label>
             </div>   
         </div>
     </header>
@@ -41,7 +55,7 @@
         <nav class="nav">
             <ul class="nav__list">
                 <li class="nav__item"><a class="nav__link" href="">Ремонтируемые устройства</a></li>
-                <li class="nav__item"><a class="nav__link" href="">Ремонтируемые бренды</a></li>
+                <li class="nav__item"><a class="nav__link" href="">Дополнительные  услуги</a></li>
                 <li class="nav__item"><a class="nav__link" href="">Цены за услуги</a></li>
                 <li class="nav__item"><a class="nav__link" href="">Адреса сервисных центров</a></li>
                 <li class="nav__item"><a class="nav__link" href="">Специальные цены</a></li>

@@ -9,27 +9,28 @@ body {
 
 
 /*HEADER*/
-.header {
-    background-color: white;
-}
-
 .container {
     height: 88px;
     display: flex;
     justify-content: space-between;
+    background-color: white;
+
 }
 
 .mob-menu {
     display: flex;
     align-items: center;
 }
+.mob-menu__button {
+    margin-left: 16px;
+    margin-right: 16px;
+}
 
 .request-menu {
     display: flex;
-    align-items: center;
+    align-items: center;    
 }
-
-.request-menu__element:first-of-type::before {
+.request-menu__label:first-of-type::before {
     content: '';
     display: block;
     width: 2px;
@@ -37,25 +38,23 @@ body {
     border-radius: 1px;
     background-color: #EAEAEA;
     position: absolute;
-    right: 60px;
+    right: 58px;
     bottom: 10px;   
-} 
-
-.mob-menu__button {
-    background-color: inherit;
-    margin-left: 16px; 
 }
-.mob-menu__element {
-    margin-right: 16px;
+.request-menu__text {
+    display: none;
 }
-.request-menu__element {
+.request-menu__label {
     margin-right: 16px;
     position: relative;
 }
 
+.tablet-menu {
+    display: none;
+}
 
-/*MAIN*/
-
+    /*--------MAIN---------*/
+/*TITLE*/
 .title {
     position: relative;
     color: #1B1C21;
@@ -64,8 +63,7 @@ body {
     font-size: 28px;
     line-height: 40px; 
     letter-spacing: -0.6px;
-    padding: 16px 24px 0 16px;
-    
+    padding: 16px 24px 0 16px; 
 }
 
 .title::before {
@@ -80,7 +78,18 @@ body {
     bottom: 10;
 }
 
-
+.title::after {
+    content: '';
+    display: block;
+    width: 24px;
+    height: 40px;
+    background:  linear-gradient(270deg, #F8F8F8 16.84%,  rgba(248, 248, 248, 0.00) 100%);
+    position: absolute;
+    right: 0;
+    top: 80px;
+    z-index: 1;
+} 
+/*NAV*/
 .nav__list {
     display: flex;
     justify-content: space-between;
@@ -99,10 +108,11 @@ body {
     position: relative;
 }
 
-.nav__item:first-of-type {
+.nav__item:first-of-type > .nav__link  {
     border-radius: 6px;
     border: 2px solid #B8FFEC;
     background: #FFF;
+    padding: 6px 15px;
 }
 
 .nav__link {
@@ -110,26 +120,12 @@ body {
     color: #7E7E82;
     font-size: 16px;
     text-wrap: nowrap;
-    padding-left: 17px;
-    padding-right: 9px;
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: -0.2px;
 }
-
-.title::after {
-    content: '';
-    display: block;
-    width: 24px;
-    height: 40px;
-    background:  linear-gradient(270deg, #F8F8F8 16.84%,  rgba(248, 248, 248, 0.00) 100%);
-    position: absolute;
-    right: 0;
-    top: 80px;
-    z-index: 1;
-} 
-
+/*ARTICLE*/
 .textbox {
     margin-left: 16px;
     margin-right: 16px;
