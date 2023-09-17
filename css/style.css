@@ -51,7 +51,7 @@ body {
 /*NAV*/
 .nav__list {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     overflow: scroll;
     z-index: auto;
     position: relative;
@@ -103,5 +103,5 @@ body {
     vertical-align: top;
     
 }
-
+/*END*/
 

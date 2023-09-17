@@ -2,11 +2,9 @@
 
 /*HEADER*/
 
-.request-menu__text {
-    display: none;
-}
-.request-menu__label {
+.request-menu__button {
     margin-right: 16px;
+    position: relative;
 }
 .tablet-menu {
     display: none;
@@ -17,7 +15,7 @@
     margin-right: 16px;
 }
 
-.request-menu__label:first-of-type::before {
+.request-menu__button:first-of-type::before {
     content: '';
     display: block;
     width: 2px;
@@ -26,11 +24,14 @@
     background-color: #EAEAEA;
     position: absolute;
     right: 60px;
-    bottom: 10px;   
+    bottom: 10px;
 }
 
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!MAIN*/
 /*TITLE*/
+.main-request-menu {
+    display: none; 
+}
 .title {    
     margin:  24px 16px; 
 }
@@ -78,11 +79,18 @@
 .image {
     width: 320px;
     height: 230px;
-    margin-top: -40px;
-    background: url(/img/CSP_image.png), lightgray 0px 0px / 100% 100% no-repeat;
-    background-size: cover;
-    clip-path: polygon(0 10%, 100% 10%, 100% 90%, 0 90%); 
+    background: url(/img/CSP_image.png) no-repeat;
+    background-size: contain;  
   }
+/*
+.image {
+    width: 320px;
+    height: 230px;
+    margin-top: -25px;
+    background: url(/img/CSP_image.png), lightgray 0px 0px / 100% 100% no-repeat;
+    background-size: contain;
+    clip-path: polygon(0 10%, 100% 10%, 100% 83%, 0% 83%); 
+}*/   
 /*END*/
 }
 
