@@ -1,7 +1,6 @@
 @media (min-width: 768px) {
     
 /*HEADER*/
-
 .mob-menu__button {
     margin-left: 24px;
     margin-right: 43px;
@@ -33,7 +32,8 @@
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!MAIN*/
 /*TITLE*/
 .title {    
-    margin: 24px 510px 0 24px; 
+    margin: 24px 500px 0 24px;
+    
 }
 .title::before {
     content: '';
@@ -50,11 +50,12 @@
     display: block;
     width: 24px;
     height: 40px;
-    background:  linear-gradient(270deg, #F8F8F8 16.84%,  rgba(248, 248, 248, 0.00) 100%);
+    background: linear-gradient(270deg, #F8F8F8 16.84%,  rgba(248, 248, 248, 0.00) 100%);
     position: absolute;
-    right: -512px;
-    top: 75px;
+    right: -500px;
+    top: 72px;
     z-index: 1;
+    
 }
 
 /*NAV*/
@@ -62,9 +63,6 @@
 .nav__list {
     margin: 32px 0;
     padding-left: 24px;
-}
-.nav__item {
-
 }
 
 /*WRAPPER*/
@@ -90,7 +88,8 @@
     margin-top: -25px;
     background: url(/img/CSP_image.png), lightgray 0px 0px / 100% 100% no-repeat;
     background-size: cover;
-    clip-path: polygon(0 10%, 100% 10%, 100% 90%, 0% 90%); 
+    clip-path: polygon(0 10%, 100% 10%, 100% 90%, 0% 90%);
+     
   }
 
 /*END*/
