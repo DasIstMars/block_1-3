@@ -1,87 +1,24 @@
-@media (min-width: 320px) {
+
 
 /*HEADER*/
 
-.request-menu__button {
-    margin-right: 16px;
-    position: relative;
-}
-.tablet-menu {
-    display: none;
-}
 
-.mob-menu__button {
-    margin-left: 16px;
-    margin-right: 16px;
-}
 
-.request-menu__button:first-of-type::before {
-    content: '';
-    display: block;
-    width: 2px;
-    height: 32px;
-    border-radius: 1px;
-    background-color: #EAEAEA;
-    position: absolute;
-    right: 60px;
-    bottom: 10px;
-}
+
+
+
+
 
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!MAIN*/
 /*TITLE*/
-.main-request-menu {
-    display: none; 
-}
-.title {    
-    margin:  24px 16px; 
-}
-.title::before {
-    content: '';
-    display: block;
-    width: 4px;
-    height: 40px;
-    border-radius: 0 3px 3px 0;
-    background-color: #41F6D7;
-    position: absolute;
-    left: -16px;
-}
-.title::after {
-    content: '';
-    display: block;
-    width: 24px;
-    height: 40px;
-    background: linear-gradient(270deg, #F8F8F8 16.84%,  rgba(248, 248, 248, 0.00) 100%);
-    position: absolute;
-    right: -16px;
-    top: 65px;
-    z-index: 1;
-}
+
 
 /*NAV*/
-.nav__list {
-    margin: 24px 0;
-    padding-left: 16px;
-}
+
 
 /*TEXT*/
-.textbox {
-    margin-left: 16px;
-    margin-right: 16px;
-    height: 90px;
-    line-height: 18px; 
-}
 
-.expand {
-    margin: 16px;
-    margin-bottom: 30px;
-}
 
-.image {
-    width: 320px;
-    height: 230px;
-    background: url(/img/CSP_image.png) no-repeat;
-    background-size: contain;  
-  }
 /*
 .image {
     width: 320px;
@@ -92,7 +29,7 @@
     clip-path: polygon(0 10%, 100% 10%, 100% 83%, 0% 83%); 
 }*/   
 /*END*/
-}
+
 
 
 

@@ -1,85 +1,22 @@
 @media (min-width: 1120px) {
 
+}
 /*HEADER*/
 
-.header {
-    display: none;
-}
 
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!MAIN*/
 /*TITLE*/
 
-.wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    padding-right: 34px;
-    padding-left: 34px;
-    margin-bottom: 8px;
-}
-.title {    
-    margin: 0;    
-    margin-top: 42px;
-    
-}
-.title::before {
-    content: '';
-    display: block;
-    width: 4px;
-    height: 40px;
-    border-radius: 0 3px 3px 0;
-    background-color: #41F6D7;
-    position: absolute;
-    left: -34px;
-}
-.title::after {
-    display: none;
-}
-.main-request-menu {
-    display: flex;
-    justify-content: space-between;
-}   
-.main-request-menu__label {
-    display: flex;
-    flex-direction: row-reverse;
-    gap: 8px;
-}
-.main-request-menu__text {
-    margin-left: 32px;
-    align-self: center;
-}
+
 
 /*NAV*/
-.nav__list {
-    flex-wrap: wrap;
-    margin: 0;
-    padding-left: 32px;
-    padding-right: 32px;
-}
+
 
 /*TEXT*/
-.textbox {
-    align-self: start;
-    width: 490px;
-    height: 160px;
-    margin: 0;
-    line-height: 20px;
-}
-.section {
-    align-self: start;
-}
-.expand {
-    margin: 14px;
-    margin-bottom: 30px;
-}
-.image {
-    width: 530px;
-    height: 384px;
-    border-radius: 5px;
-    background: url(/img/CSP_image.png) no-repeat;
-    background-size: contain;  
-     
-  }
+
+
+
+
 /*
 .image {
     width: 530px;

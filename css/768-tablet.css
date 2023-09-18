@@ -1,97 +1,27 @@
 @media (min-width: 768px) {
-    
+  
+}
 /*HEADER*/
-.mob-menu__button {
-    margin-left: 24px;
-    margin-right: 43px;
-    position: relative;
-}
-.mob-menu__button::before {
-    content: '';
-    display: block;
-    width: 2px;
-    height: 32px;
-    border-radius: 1px;
-    background-color: #EAEAEA;
-    position: absolute;
-    left: 60px;
-    bottom: 10px;   
-}
-.tablet-menu {
-    display: flex;
-    align-items: center;
-    margin-right: 20px;
-}
-.tablet-menu__button {
-    margin-right: 16px;
-}
-.request-menu__button:last-of-type {
-    margin-right: 24px; 
-}
+
+
+
+
 
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!MAIN*/
 /*TITLE*/
-.main-request-menu {
-    display: none; 
-}
-.title {
-    margin: 0;    
-    margin-top: 24px;    
-}
-.title::before {
-    content: '';
-    display: block;
-    width: 4px;
-    height: 40px;
-    border-radius: 0 3px 3px 0;
-    background-color: #41F6D7;
-    position: absolute;
-    left: -24px;
-}
-.title::after {
-    content: '';
-    display: block;
-    width: 24px;
-    height: 40px;
-    background: linear-gradient(270deg, #F8F8F8 16.84%,  rgba(248, 248, 248, 0.00) 100%);
-    position: absolute;
-    right: -512px;
-    top: 72px;
-    z-index: 1;
-    
-}
+
+
+
 
 /*NAV*/
 
-.nav__list {
-    margin: 32px 0;
-    padding-left: 24px;
-}
+
 
 /*TEXT*/
-.wrapper {
-    display: flex;
-    justify-content: space-between;
-    padding-right: 24px;
-    padding-left: 24px;
-}
-.textbox {
-    width: 312px;
-    height: 160px;
-    margin: 0;
-    line-height: 20px;
-}
-.expand {
-    margin: 10px;
-    margin-bottom: 30px;
-}
-.image {
-    width: 360px;
-    height: 260px;
-    border-radius: 5px;
-    background: url(/img/CSP_image.png) no-repeat;
-    background-size: contain;
-}    
+
+
+
+  
 /*
 .image {
     width: 360px;
