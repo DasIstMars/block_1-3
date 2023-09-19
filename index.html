@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/fonts/fonts.css">
     <title>Block 1.3</title>
 </head>
@@ -12,7 +11,7 @@
     <header class="header">
         <div class="container">
             <div class="mob-menu">
-                <button class="mob-menu__button">
+                <button class="mob-menu__button h-button">
                     <img src="/img/menu.svg" alt="Menu">
                 </button>
                 <a class="mob-menu__logo" href="#">
@@ -21,21 +20,21 @@
             </div>
             <div class="main-menu">
                 <div class="tablet-menu">
-                    <button class="tablet-menu__button">
+                    <button class="tablet-menu__button h-button">
                         <img src="/img/call.svg" alt="Call">
                     </button>
-                    <button class="tablet-menu__button">
+                    <button class="tablet-menu__button h-button">
                         <img src="/img/chat.svg" alt="Chat">
                     </button>
-                    <button class="tablet-menu__button">
+                    <button class="tablet-menu__button h-button">
                         <img src="/img/profile.svg" alt="Profile">
                     </button>
                 </div>
                 <div class="request-menu">
-                        <button class="request-menu__button">
+                        <button class="request-menu__button h-button">
                             <img src="/img/repair.svg" alt="Repair">
                         </button>
-                        <button class="request-menu__button">
+                        <button class="request-menu__button h-button">
                             <img src="/img/checkstatus.svg" alt="Check status">
                         </button> 
                 </div>
@@ -45,20 +44,16 @@
     <main class="main">
         <article class="article">
             <div class="wrapper">
-                <h1 class="title">Услуги и сервисы</h1>
+                <h1 class="title article__title">Услуги и сервисы</h1>
                 <div class="main-request-menu">
-                    <label class="main-request-menu__label" for="repair">
-                        <button class="main-request-menu__button" id="repair">
-                            <img src="/img/repair.svg" alt="Repair">
-                        </button>
+                    <button class="main-request-menu__button h-button">
+                        <img src="/img/repair.svg" alt="Repair">
                         <div class="main-request-menu__text">Оставить заявку</div> 
-                    </label>
-                    <label class="main-request-menu__label" for="checkstatus">
-                        <button class="main-request-menu__button" id="checkstatus">
-                            <img src="/img/checkstatus.svg" alt="Check status">
-                        </button>
-                        <div class="main-request-menu__text">Статус ремонта</div> 
-                    </label>
+                    </button>
+                    <button class="main-request-menu__button h-button">
+                        <img src="/img/checkstatus.svg" alt="Check status">
+                            <div class="main-request-menu__text">Статус ремонта</div> 
+                    </button>
                 </div>
             </div>
             <nav class="nav">
@@ -86,12 +81,10 @@
                             в свою очередь, советуют нас родным и близким.
                         </p>
                     </div>
-                        <label class="expand" for="expand">
-                            <button  id="expand">
-                                <img src="/img/expand.svg" alt="Expand" class="expand__img">
-                            </button>
-                            <div class="expand__text">Читать далее</div> 
-                        </label>
+                    <button  class="section__button expand-button">
+                        <img src="/img/expand.svg" alt="Expand" class="expand__img">
+                        <div class="expand__text">Читать далее</div> 
+                    </button>
                 </section>
                 <div class="w-image">
                     <div class="w-image__img"></div>

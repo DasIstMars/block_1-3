@@ -1,3 +1,4 @@
+
 /*RESET*/
 *, 
 *::after, 
@@ -21,6 +22,12 @@ ul {
 button {
     border: none;
     background-color: inherit;
+    font-family: "TT Lakes", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.2px;
 }
 /*BODY*/
 body {
@@ -33,6 +40,9 @@ body {
 
 
 /*HEADER*/
+.h-button {
+    height: 40px;
+}
 @media (min-width: 1120px) {
     .header {
         display: none;
@@ -49,9 +59,13 @@ body {
     display: flex;
     align-items: center;
 }
+.mob-menu__logo {
+    height: 51px;
+}
 .mob-menu__button {
     margin-left: 16px;
     margin-right: 16px;
+    height: 40px;
 }
 @media (min-width: 768px) {
     .mob-menu__button {
@@ -91,7 +105,10 @@ body {
     }
 }
 
-
+.request-menu {
+    display: flex;
+    align-items: center;
+}
 .request-menu__button {
     margin-right: 16px;
     position: relative;
@@ -144,7 +161,7 @@ body {
         display: flex;
         justify-content: space-between;
     }   
-    .main-request-menu__label {
+    .main-request-menu__button {
         display: flex;
         flex-direction: row-reverse;
         gap: 8px;
@@ -152,9 +169,10 @@ body {
     .main-request-menu__text {
         margin-left: 32px;
         align-self: center;
+            
     }
 }
-.title {
+.article__title {
     position: relative;
     color: #1B1C21;
     font-weight: bold;
@@ -164,17 +182,17 @@ body {
     margin:  24px 16px; 
 }
 @media (min-width: 768px) {
-    .title {
+    .article__title {
         margin: 0;    
         margin-top: 24px;    
     }
 }
 @media (min-width: 1120px) {
-    .title {     
+    .article__title {     
         margin-top: 42px; 
     }
 }
-.title::before {
+.article__title::before {
     content: '';
     display: block;
     width: 4px;
@@ -185,12 +203,12 @@ body {
     left: -16px;
 }
 @media (min-width: 768px) {
-    .title::before {
+    .article__title::before {
         left: -24px;
     }
 }
 @media (min-width: 1120px) {
-    .title::before {
+    .article__title::before {
         left: -34px;
     }
 }
@@ -209,7 +227,6 @@ body {
         align-items: flex-end;
         padding-right: 34px;
         padding-left: 34px;
-        margin-bottom: 8px;
     }
 }
 .nav__list {
@@ -220,6 +237,7 @@ body {
     position: relative;
     margin: 24px 0;
     padding-left: 16px;
+    padding-top: 8px;
 }
 @media (min-width: 768px) {
     .nav__list {
@@ -265,8 +283,6 @@ body {
     overflow: hidden;
     letter-spacing: 0.2px;
     font-size: 14px;
-    margin-left: 16px;
-    margin-right: 16px;
     height: 90px;
     line-height: 18px; 
 }
@@ -295,19 +311,19 @@ body {
     font-weight: normal;
 }
 
-.expand {
+.section__button {
     display: flex;
     gap: 8px;
     margin: 16px;
     margin-bottom: 30px;
 }
 @media (min-width: 768px) {
-    .expand {
+    .section__button {
         margin: 10px;
     }
 }
 @media (min-width: 1120px) {
-    .expand {
+    .esection__button {
         margin: 14px;
     }
 }

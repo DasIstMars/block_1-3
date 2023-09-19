@@ -1,0 +1,149 @@
+.header {
+    
+}
+.container {
+    
+}
+.mob-menu {
+    
+}
+.mob-menu__button {
+    border: 1px solid green;
+}
+.mob-menu__logo {
+    border: 1px solid green;
+}
+
+.main-menu {
+    border: 1px solid yellow;
+}
+.tablet-menu {
+    border: 1px solid purple;
+}
+.tablet-menu__button {
+    border: 1px solid green;
+}
+.request-menu {
+    border: 1px solid red;
+}
+.request-menu__button {
+    border: 1px solid green;
+}
+.main {
+    border: 1px solid blue;
+}
+.article {
+    border: 1px solid blue;
+}
+.wrapper {
+    border: 1px solid red;
+}
+.title {
+    border: 1px solid green;
+}
+.main-request-menu {
+    border: 1px solid green;
+}
+.main-request-menu__label {
+}
+.main-request-menu__button {
+}
+.main-request-menu__text {
+}
+.nav {
+    border: 1px solid green;
+}
+.nav__list {
+}
+.nav__item {
+}
+.nav__link {
+}
+.section {
+    border: 1px solid purple;
+}
+.textbox {
+    border: 1px solid yellow;
+}
+.textbox__text {
+}
+.expand {
+    border: 1px solid rgb(0, 255, 115);
+}
+.expand__img {
+}
+.expand__text {
+}
+.w-image {
+    border: 1px solid purple;
+}
+.w-image__img {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*HEADER*/
+
+
+
+
+
+
+
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!MAIN*/
+/*TITLE*/
+
+
+/*NAV*/
+
+
+/*TEXT*/
+
+
+/*
+.image {
+    width: 320px;
+    height: 230px;
+    margin-top: -25px;
+    background: url(/img/CSP_image.png), lightgray 0px 0px / 100% 100% no-repeat;
+    background-size: contain;
+    clip-path: polygon(0 10%, 100% 10%, 100% 83%, 0% 83%); 
+}*/   
+/*END*/
+
+
+
+
+
+
