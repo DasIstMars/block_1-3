@@ -259,7 +259,7 @@ body {
     position: relative;
 }
 
-.nav__item:first-of-type > .nav__link  {
+.nav__link--active  {
     border-radius: 6px;
     border: 2px solid #B8FFEC;
     background: #FFF;
