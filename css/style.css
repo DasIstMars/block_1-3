@@ -341,7 +341,7 @@ body {
 .w-image__img {
     padding-top: 55%;
     width: 100%;
-    background: url(img/CSP_image.png) no-repeat;
+    background: url(/img/img.jpg) no-repeat;
     background-size: 100% auto;
     background-position: 0 45%;
 }
