@@ -288,7 +288,8 @@ body {
     letter-spacing: 0.2px;
     font-size: 14px;
     height: 90px;
-    line-height: 18px; 
+    line-height: 18px;
+     
 }
 @media (min-width: 768px) {
     .textbox {
@@ -304,6 +305,7 @@ body {
         align-self: start;
         height: 160px;
         padding-right: 36px;
+        max-width: 560px;
     }
 }
 @media (min-width: 1120px) {
@@ -336,7 +338,8 @@ body {
 }
 @media (min-width: 768px) {
     .w-image {
-        width: 50vw;  
+        width: 50vw;
+        max-width: 560px;  
     }  
 }
 .expand-button__text {
@@ -350,7 +353,7 @@ body {
 .w-image__img {
     padding-top: 55%;
     width: 100%;
-    background: url(img/CSP_image.jpg) no-repeat;
+    background: url(/img/CSP_image.jpg) no-repeat;
     background-size: 100% auto;
     background-position: 0 45%;
 }
