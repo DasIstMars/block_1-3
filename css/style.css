@@ -36,6 +36,7 @@ body {
     font-weight: 500;
     font-style: normal;
     height: auto;
+    max-width: 1120px;
 }
 
 
@@ -247,6 +248,7 @@ body {
 }
 @media (min-width: 1120px) {
     .nav__list {
+        overflow: auto;
         flex-wrap: wrap;
         margin: 0;
         padding-left: 32px;
@@ -339,7 +341,7 @@ body {
 .w-image__img {
     padding-top: 55%;
     width: 100%;
-    background: url(/img/CSP_image.png) no-repeat;
+    background: url(img/CSP_image.png) no-repeat;
     background-size: 100% auto;
     background-position: 0 45%;
 }
